@@ -2,6 +2,4 @@ metadata:
   name: loki-output-americas
 spec:
   loki:
-    configure_kubernetes_labels: true
-    tenant: americas-tenant
     url: https://americas-loki-instance.company.tld:8080

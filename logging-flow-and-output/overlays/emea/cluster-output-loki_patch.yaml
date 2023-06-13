@@ -2,6 +2,4 @@ metadata:
   name: loki-output-emea
 spec:
   loki:
-    configure_kubernetes_labels: true
-    tenant: emea-tenant
-    url: http://172.16.30.113:3102
+    url: https://gateway.loki.virtualthoughts.co.uk
