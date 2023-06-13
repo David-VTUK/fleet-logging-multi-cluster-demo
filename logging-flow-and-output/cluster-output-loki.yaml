@@ -6,3 +6,7 @@ metadata:
 spec:
   loki:
     configure_kubernetes_labels: true
+    buffer:
+      timekey: 1m
+      timekey_use_utc: true
+      timekey_wait: 30s
