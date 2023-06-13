@@ -22,4 +22,4 @@ targetCustomizations:
     - americas
 
 dependsOn:
-  - name: logging-chart
+  - name: manifests-logging-chart

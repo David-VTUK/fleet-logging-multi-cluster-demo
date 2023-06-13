@@ -8,4 +8,4 @@ helm:
 
 
 dependsOn:
-  - name: logging-crd
+  - name: manifests-logging-crd
