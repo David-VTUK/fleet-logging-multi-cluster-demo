@@ -1,6 +1,5 @@
 metadata:
   name: loki-output-apac
-  namespace: cattle-logging-system
 spec:
   loki:
     configure_kubernetes_labels: true

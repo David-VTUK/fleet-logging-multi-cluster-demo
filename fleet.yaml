@@ -1,4 +1,4 @@
-namespace: fleet-mc-manifest-example
+#namespace: fleet-mc-manifest-example
 targetCustomizations:
 - name: emea
   clusterSelector:
