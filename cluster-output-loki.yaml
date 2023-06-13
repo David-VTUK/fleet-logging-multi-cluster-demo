@@ -6,5 +6,3 @@ metadata:
 spec:
   loki:
     configure_kubernetes_labels: true
-    tenant: tenantName
-    url: https://emea-loki-instance.company.tld:8080
