@@ -1,0 +1,23 @@
+namespace: fleet-mc-manifest-example
+targetCustomizations:
+- name: emea
+  clusterSelector:
+    matchLabels:
+      env: emea
+  yaml:
+    overlays:
+    - emea
+- name: apac
+  clusterSelector:
+    matchLabels:
+      env: apac
+  yaml:
+    overlays:
+    - apac
+- name: americas
+  clusterSelector:
+    matchLabels:
+      env: americas
+  yaml:
+    overlays:
+    - americas

@@ -1,0 +1,10 @@
+apiVersion: logging.banzaicloud.io/v1beta1
+kind: ClusterOutput
+metadata:
+  name: loki-output-emea
+  namespace: cattle-logging-system
+spec:
+  loki:
+    configure_kubernetes_labels: true
+    tenant: tenantName
+    url: https://emea-loki-instance.company.tld:8080

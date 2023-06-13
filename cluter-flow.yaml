@@ -1,0 +1,8 @@
+apiVersion: logging.banzaicloud.io/v1beta1
+kind: ClusterFlow
+metadata:
+  name: capture-all
+  namespace: cattle-logging-system
+spec:
+  globalOutputRefs:
+    - loki-output-emea

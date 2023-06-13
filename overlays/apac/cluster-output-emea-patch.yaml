@@ -1,0 +1,5 @@
+spec:
+  loki:
+    configure_kubernetes_labels: true
+    tenant: apac-tenant
+    url: https://apac-loki-instance.company.tld:8080
