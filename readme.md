@@ -14,6 +14,10 @@ spec:
   forceSyncGeneration: 2
   insecureSkipTLSVerify: false
   repo: https://github.com/David-VTUK/fleet-logging-multi-cluster-demo
+  paths:
+  - logging-chart
+  - logging-crd
+  - logging-flow-and-output 
   targets:
     - clusterSelector:
         matchLabels:
