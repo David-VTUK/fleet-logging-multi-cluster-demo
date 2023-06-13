@@ -4,4 +4,4 @@ spec:
   loki:
     configure_kubernetes_labels: true
     tenant: emea-tenant
-    url: http://172.16.30.113:3100
+    url: http://172.16.30.113:3102
