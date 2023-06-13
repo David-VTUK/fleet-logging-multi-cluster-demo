@@ -1,3 +1,5 @@
+metadata:
+  name: loki-output-emea
 spec:
   loki:
     configure_kubernetes_labels: true
