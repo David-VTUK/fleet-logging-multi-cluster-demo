@@ -1,0 +1,22 @@
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: manifests
+  namespace: fleet-default
+spec:
+  repo: https://github.com/David-VTUK/fleet-logging-multi-cluster-demo
+  targets:
+  - name: emea
+    clusterSelector:
+      matchLabels:
+        env: emea
+
+  - name: apac
+    clusterSelector:
+      matchLabels:
+        env: apac
+
+  - name: americas
+    clusterSelector:
+      matchLabels:
+        env: americas
