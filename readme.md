@@ -18,6 +18,7 @@ spec:
   - logging-chart
   - logging-crd
   - logging-flow-and-output 
+  - random-workload
   targets:
     - clusterSelector:
         matchLabels:
